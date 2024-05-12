@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#video-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+}
+.container {
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+form {
+    margin-top: 20px;
+}
+h2 {
+    font-family: "Roboto Slab", serif;
+    color: #000000; 
+    font-size: 24px;
+}
+label {
+    font-family: "Roboto Slab", serif;
+    color: #333; 
+    font-size: 16px;}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    font-family: "Roboto Slab", serif;
+    border: 1px solid #333; 
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 16px;
+}
+button[type="submit"] {
+    font-family: "Roboto Slab", serif;
+    width: 100%;
+    padding: 10px;
+    background-color: #76ABAE;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button[type="submit"]:hover {
+    background-color: #000000;
+}
+p {
+    font-family: "Roboto Slab", serif;
+    color: #000000;
+    margin-top: 15px;
+    text-align: center;
+}
+a {
+    font-family: "Roboto Slab", serif;
+    color: #000000;
+    text-decoration: none;
+}
+a:hover {
+    color: #76ABAE;
+}
